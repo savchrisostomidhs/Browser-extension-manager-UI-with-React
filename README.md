@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [here](https://your-solution-url.com)
-- Live Site URL: [here](https://your-live-site-url.com)
+- Solution URL: [here](https://www.frontendmentor.io/solutions/browser-extension-manager-ui-with-react-LsJooLyjAU)
+- Live Site URL: [here](https://browser-extension-manager-ui-with-r.vercel.app/)
 
 ## My process
 
