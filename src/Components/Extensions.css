@@ -1,0 +1,18 @@
+.extensions {
+    display: grid;
+    gap: 12px;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+}
+
+@media (max-width: 1200px) {
+    .extensions {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 750px) {
+    .extensions {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

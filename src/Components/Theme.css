@@ -1,0 +1,45 @@
+.theme {
+    background-color: var(--component-bg);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    padding: 15px;
+    width: 100%;
+}
+
+.logo-text {
+    fill: var(--text);
+}
+
+.mode {
+    align-items: center;
+    background-color: var(--grey);
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    height: 44px;
+    justify-content: center;
+    padding: 5px;
+    width: 44px;
+}
+
+.mode:hover {
+    background-color: var(--theme-hover);
+}
+
+.mode:focus-visible {
+    background-color: var(--theme-focus);
+    outline-offset: 3px;
+    outline: solid hsl(3, 71%, 56%);
+}
+
+.none {
+    display: none;
+}
+
+@media (max-width: 750px) {
+    .theme {
+        margin-bottom: 20px;
+    }
+}
